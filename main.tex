@@ -27,6 +27,7 @@
 \usepackage{geometry}
 \geometry{margin=1cm}
 \usepackage{grid-system}
+\graphicspath{ {.} }
 
 %\color{white}
 %\definecolor{sbc}{RGB}{0.858, 0.188, 0.478}
@@ -53,27 +54,32 @@
 \begin{minipage}{\dimexpr1\textwidth-2\fboxrule-2\fboxsep\relax}
 \vspace{+\baselineskip} % Required for vertically aligning minipages
 
-\begin{minipage}[t]{0.55\textwidth} 
+\begin{minipage}[t]{0.3\textwidth} 
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Sam}}}}} % First name
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Samuel}}}}}\\ % First name
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Brown}}}}} % Last name
-	
-	\colorbox{black}{{\LARGE\textcolor{white}{\textbf{Full Stack}}}} 
-	\\
-	\colorbox{black}{{\LARGE\textcolor{white}{\textbf{Developer / Engineer / QA}}}} 
+
+	\colorbox{black}{{\large\textcolor{white}{\textbf{Software Engineer}}}} 
 	%\vspace{6pt}
 	
 	
 \end{minipage}
-\begin{minipage}[t]{0.45\textwidth}
+\begin{minipage}[t]{0.486\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\icon{MapMarker}{14}{\textcolor{white}{United Kingdom}}\\
 	\icon{Phone}{14}{\textcolor{white}{+44 7862 754265}}\\
 	\icon{At}{14}{\href{mailto:samuel.william.brown@outlook.com}{\textcolor{white}{samuel.william.brown@outlook.com}}}\\	
-	\icon{Linkedin}{14}{\href{https://www.linkedin.com/in/samuel-brown-69b531219}{\textcolor{white}{\underline{Samuel Brown}}}}
+	\icon{Linkedin}{14}{\href{https://www.linkedin.com/in/samuel-brown-69b531219}{\textcolor{white}{\underline{samuel-brown-69b531219}}}}\\
+	\icon{MapMarker}{14}{\textcolor{white}{United Kingdom}}
 %faMortarBoard
 \end{minipage}
+\begin{minipage}[t]{0.2\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	%\rotatebox{90}{\icon{Phone}{14}{\textcolor{white}{Samuel-Brown}}}
+	\rotatebox{90}{\icon{Github}{14}{\href{https://github.com/Samuel-Brown}{\scriptsize\textcolor{white}{\underline{Samuel-Brown}}}}}\includegraphics[width=3.1cm]{Samuel-Brown}
+%faMortarBoard
+\end{minipage}
+
 
 \end{minipage}}%
 
@@ -160,8 +166,7 @@ I am able to learn new languages and technologies quickly and independantly.
 	\icon{Code}{14}{{F\#}}
 
 	\cvsect{Web Development}
-	\icon{Code}{14}{{HTML5}}\\
-	\icon{Code}{14}{{CSS3}}\\
+	\icon{Code}{14}{{HTML5 / CSS3}}\\
 	\icon{Code}{14}{{JavaScript}}\\
 	\icon{Code}{14}{{Python}}\\
 	\icon{Code}{14}{{PHP}}\\
@@ -169,7 +174,8 @@ I am able to learn new languages and technologies quickly and independantly.
 
 	\cvsect{App Development}
 	\icon{Android}{14}{{Android (Java)}}\\
-	\icon{Mobile}{14}{{Xamarin}}\\
+	\icon{Mobile}{14}{{.Net Xamarin}}\\
+	\icon{Mobile}{14}{{.Net Maui}}\\
 	\icon{Mobile}{14}{{Oracle MAF}}
 
 	\cvsect{Other Languages}
@@ -287,7 +293,7 @@ I am able to learn new languages and technologies quickly and independantly.
 	\cvsect{Miscellaneous}
 	\icon{Automobile}{14}{{UK Drivers Licence}}\\
 	\icon{SignLanguage}{14}{{BSL Finger Spelling}}\\
-
+	%\icon{MapMarker}{14}{{United Kingdom}}\\
 	
 \end{minipage}
 
