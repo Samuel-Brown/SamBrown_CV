@@ -1,0 +1,264 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%Template adapted by: Sam Brown
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{developercv} 
+\usepackage{tikz}
+
+\usepackage{geometry}
+\geometry{margin=1cm}
+\usepackage{grid-system}
+\graphicspath{ {.} }
+
+\usepackage{multicol}
+\usepackage{tikz}
+
+
+
+%----------------------------------------------------------------------------------------p495624
+
+\begin{document}
+
+\definecolor{tav}{RGB}{186, 184, 175}
+\definecolor{top}{RGB}{186, 184, 175}
+\definecolor{sbc}{RGB}{245, 232, 214}
+\color{black}
+\pagecolor{white}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\noindent\fcolorbox{black}{black}{%
+\begin{minipage}{\dimexpr1\textwidth-2\fboxrule-2\fboxsep\relax}
+\vspace{+\baselineskip}
+
+\begin{minipage}[t]{0.32\textwidth} 
+	\vspace{-\baselineskip}
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Samuel}}}}}\\ % First name
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Brown}}}}} % Last name
+	\colorbox{black}{{\large\textcolor{white}{\textbf{T-Shaped Engineer}}}} 
+\end{minipage}
+\begin{minipage}[t]{0.483\textwidth-0.2cm}
+	\vspace{-\baselineskip} 
+	\icon{Phone}{14}{\textcolor{white}{+44 7862 754265}}\\
+	\icon{At}{14}{\href{mailto:samuel.william.brown@outlook.com}{\textcolor{white}{samuel.william.brown@outlook.com}}}\\	
+	\icon{Linkedin}{14}{\href{https://www.linkedin.com/in/samuel-brown-69b531219}{\textcolor{white}{\underline{samuel-brown-69b531219}}}}\\
+	\icon{MapMarker}{14}{\textcolor{white}{Falmouth, Cornwall}}
+\end{minipage}
+\begin{minipage}[t]{0.2\textwidth}
+	\vspace{-\baselineskip} 
+	\rotatebox{90}{\icon{Github}{14}{\href{https://github.com/Samuel-Brown}{\scriptsize\textcolor{white}{\underline{Samuel-Brown}}}}}\includegraphics[width=3cm]{Samuel-Brown-Inv-S}
+	%\icon{Github}{14}{\href{https://github.com/Samuel-Brown}{\scriptsize\textcolor{white}{\underline{Samuel-Brown}}}}\includegraphics[width=3.1cm]{Samuel-Brown-Inv-S}
+\end{minipage}
+\end{minipage}}%
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+
+\begin{minipage}[t]{0.25\textwidth}
+
+	\cvsect{SDLC}
+	\icon{Pencil}{14}{{Design}}\\
+	\icon{CalendarCheckO}{14}{{Delivery}}\\
+	\icon{CodeFork}{14}{{Development}}\\
+	\icon{CheckSquareO}{14}{{QA}}\\
+	\icon{Group}{14}{{Management}}
+
+	\cvsect{Languages}
+	\icon{Code}{14}{{.Net: C\#, F\#, VB}}\\
+	\icon{Code}{14}{{Java}}\\
+	\icon{Code}{14}{{Python, PHP}}
+
+
+	\cvsect{Databases}
+	\icon{Database}{14}{{SQL Server, T-SQL}}\\
+	\icon{Database}{14}{{PostgreSQL}}\\
+	\icon{Database}{14}{{MySQL}}\\
+	\icon{Database}{14}{{MongoDB / NoSQL}}
+
+	\cvsect{Quality Assurance}
+	\icon{CheckSquareO}{14}{{Selenium}}\\
+	\icon{CheckSquareO}{14}{{Katalon}}\\
+	\icon{CheckSquareO}{14}{{Unit Testing}}
+
+	\cvsect{App Development}
+	\icon{Android}{14}{{Android Native}}\\
+	\icon{Mobile}{14}{{Xamarin, Maui}}
+
+	\cvsect{Web Development}
+	\icon{Code}{14}{{HTML, CSS, JS}}\\
+	\icon{Cogs}{14}{{RESTful Services}}\\
+	\icon{Globe}{14}{{Angular, React}}
+
+	\cvsect{Miscellaneous}
+	\icon{Automobile}{14}{{UK Drivers Licence}}\\
+	\icon{Home}{14}{{UK Citizen}}\\
+	\icon{Certificate}{14}{{ITIL Certificate}}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.81\textwidth}
+
+%----------------------------------------------------------------------------------------
+%	BODY CONTENT
+%----------------------------------------------------------------------------------------
+\vspace{\baselineskip}
+
+
+
+\begin{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROFILE
+%----------------------------------------------------------------------------------------
+
+
+\entry
+	{}
+	{Profile}
+	{}
+	{
+	\\
+	Having experience with a multitude of technologies and the ability to learn new technologies quickly and independantly, I can pick up and run with any Tech Stack.
+	\\\\
+	I am looking for a long term position where I can continue to learn, refine, and collaborate.
+
+%----------------------------------------------------------------------------------------
+%	RULE
+%----------------------------------------------------------------------------------------
+	\vspace{\baselineskip}
+	\hrule
+	}
+
+%----------------------------------------------------------------------------------------
+%	NATIONWIDE
+%----------------------------------------------------------------------------------------
+
+\entry
+	{}
+	{Engineer \footnotesize\textmd{Nationwide}}
+	{24/JAN/2022 - 24/JUN/2022 }
+	{
+		{
+		\\
+		My primary role at Nationwide was to design the server / network architecture, security, and resiliancy model for the upgrade of a core service in accordance with ISO, Government, and internal starndards. 
+		\\\\
+		}
+	\texttt{Jira}\slashsep
+	\texttt{Confluence}\slashsep
+	\texttt{SQL Server}\slashsep
+	\texttt{UML}\slashsep
+	\texttt{ISO Standards}
+
+%----------------------------------------------------------------------------------------
+%	RULE
+%----------------------------------------------------------------------------------------
+	\vspace{\baselineskip}
+	\hrule
+	}
+
+%----------------------------------------------------------------------------------------
+%	BEELIVERY
+%----------------------------------------------------------------------------------------
+\entry
+	{}
+	{QA Lead \footnotesize\textmd{Beelivery}}
+	{16/APR/2021 - 17/NOV/2021l}
+	{
+		{
+\\
+While in this role, I headed up the QA department implementing automated testing and managing a team of 5.
+\\\\
+ I also helped across the buisness with delivery / board management, SQL, and teaching various development skills in the company academy.
+\\\\
+		}
+	\texttt{C\#}\slashsep
+	\texttt{Xamarin}\slashsep
+	\texttt{Azure}\slashsep
+	\texttt{Scrum}\slashsep
+	\texttt{DevOps}\slashsep
+	\texttt{PostgreSQL}
+
+%----------------------------------------------------------------------------------------
+%	RULE
+%----------------------------------------------------------------------------------------
+	\vspace{\baselineskip}
+	\hrule
+	}
+
+%----------------------------------------------------------------------------------------
+%	LAURA ASHLEY
+%----------------------------------------------------------------------------------------
+
+\entry
+	{}
+	{Systems Developer \footnotesize\textmd{Laura Ashley}}
+	{01/JUN/2019 - 21/MAY/2020}
+	{
+		{
+\\
+I was hired to convert various outdated codebases (PHP, JAVA, VB, C\#) to a unified Oracle SOA system, but also maintained and updated legacy VB / C\# systems. 
+\\\\
+I was responsible for all high priority SQL data edits, reports, and design work. As well as investigating and fixing any issues.
+\\\\
+		}
+		\texttt{C\#}\slashsep
+		\texttt{VB}\slashsep
+		\texttt{PHP}\slashsep
+		\texttt{SQL Server (T-SQL)}\slashsep
+		\texttt{Oracle SOA}
+
+%----------------------------------------------------------------------------------------
+%	RULE
+%----------------------------------------------------------------------------------------
+	\vspace{\baselineskip}
+	\hrule
+	}
+
+%----------------------------------------------------------------------------------------
+%	LAURA ASHLEY
+%----------------------------------------------------------------------------------------
+
+\entry
+	{}
+	{Education}
+	{Aberystwyth University}
+	{
+	Computer Science BSc \hfill 2:1
+	}
+
+
+\end{entrylist}
+
+
+
+\end{minipage}
+
+
+\end{document}
+
+
